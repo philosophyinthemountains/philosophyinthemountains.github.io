@@ -1,2 +1,3 @@
 # philosophyinthemountains.github.io
-Internet
+
+This is the webpage for the philosophy in the mountains group. 
