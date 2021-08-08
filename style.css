@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+	color: #c5c8c6;
+	background: #1d1f21;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+  background-color: #657786;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* PAGE LAYOUT */
+/* Create three unequal columns that floats next to each other */
+
+.singlecolumn {
+  float: left;
+  padding-top: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: large;
+}
+
+.column {
+  float: left;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: large;
+}
+
+/* Left and right column */
+.column.side {
+  width: 50%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.under_colums {
+	padding-top: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.centerImage {
+	Width:100%;
+}
+
+.text {
+}
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #1DA1F2;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.currentbtn {
+  background-color: #373b41;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+/* Links inside Dropdown Button */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+	background-color: #373b41
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #373b41;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #c5c8c6;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: black;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;} 
+
+/* Text Style and color */
+
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+}
+h2 {
+	color: #f0c674;
+}
+
+em {
+	color:yellow;
+}
+
+li {
+	font-size: large;
+}
+
+a {
+	color: #2DC401;
+}
+.upcoming {
+	border:1px solid #1DA1F2;
+	padding-top: -20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.upcoming h2 {
+	text-align: center;
+}
+.upcoming ul li {
+	font-size: large;
+	margin: 0 0 10px 0;
+	display: block;
+}
+
+
+.manifesto {
+	border:1px solid #1DA1F2;
+	padding: 10px;
+	font-size: large;
+}
+
+
+/* ---------------------------------------------------------------------------
+ * ----------------------------- Blog specifics -----------------------------*/
+@media screen and (max-width: 600px) {
+  .blog {
+    	padding-top: 20px;
+    	padding-left: 5px;
+	padding-right: 5px;
+  	font-size: medium;
+  }
+}
+
+
+.blog {
+	padding-top: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+  	font-size: large;
+}
+
+.headerquote {
+	text-align: center;
+	color: #AAB8C2;
+	font-size: 200%;
+	font-family: courier;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right; 50px;
+}
+
+.blockquote {
+	text-align: center;
+	color: #AAB8C2;
+	font-size: large;
+	font-family: courier;
+	padding-left: 50px;
+	padding-right; 50px;
+}
+
+
+.blog em {
+	color: #E1E8ED;
+	font-style: italic;
+}
+
+
+/* ---------------------------------------------------------------------------
+ * ----------------------------- GIF and IMAGES -----------------------------*/
+img.index_gif {
+	margin-left:auto;
+	margin-right:auto;
+	float :none;
+	width: 300px;
+	height: auto;
+}
+
+img.philipp-www {
+	float: right;
+	padding: 0 20px 20px 20px;
+	width: 20%;
+	height: auto;
+}
+
+img.header {
+	float: block;
+	padding: 0 0 0 0;
+	width: 10%;
+	height: auto;
+}
+
+img.headerleft {
+	float: left;
+	padding: 0 0 0 0;
+	width: 10%;
+	height: auto;
+}
+
+img.manifesto_gif {
+	margin-left:auto;
+	margin-right:auto;
+	float :none;
+	width: 300px;
+	height: auto;
+}

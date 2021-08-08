@@ -1,0 +1,23 @@
+<nav>
+ <div class="dropdown">
+  <button class="dropbtn">🏠home</button>
+</div> 
+
+ <div class="dropdown">
+  <button class="dropbtn">activities</button>
+  <div class="dropdown-content">
+    <a href="2019.html">2020</a>
+    <a href="2018.html">2019</a>
+    <a href="2017.html">2018</a>
+  </div>
+</div> 
+
+ <div class="dropdown">
+  <button class="dropbtn">About</button>
+  <div class="dropdown-content">
+    <a href="manifesto.html">Manifesto</a>
+    <a href="aboutus.html">About us</a>
+  </div>
+</div> 
+</nav>
+
